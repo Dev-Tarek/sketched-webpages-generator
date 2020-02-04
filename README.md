@@ -2,7 +2,7 @@
 Customizable open-source software to generate randomized sketched web-pages.
 
 ## Introduction
-Mapping hand sketches to computer code is a modern AI problem that has been under research for some time. One of the main example applications for this problem is the generation of web-page front-end code from a look-alike hand sketch. Training a deep learning model for this task requires a large dataset that contains a wide variety of samples, but sketching a large number of web-pages is a tedious and time-consuming task. The software we publish is an efficient tool to generate any number of unique sketched web-pages.
+Mapping hand sketches to computer code is a modern AI problem that has been under research for some time. One of the main example applications for this problem is the generation of web-page front-end code from a hand sketch. Training a deep learning model for this task requires a large dataset that contains a wide variety of samples, but sketching a large number of web-pages is a tedious and time-consuming task. The software we publish is an efficient tool to generate any number of unique sketched web-pages.
 
 ![Samples](https://i.ibb.co/jgDd2d0/samples.png "Samples")
 
@@ -31,7 +31,7 @@ The rendered web-page without and with the special CSS file applied:
 
 ![Rendering Web-page](https://i.ibb.co/W6CVKmF/five.png "Rendering Web-page")
 
-The element detection process and sketched ouput:
+The element detection process and sketched output:
 
 ![Detection Process 1](https://i.ibb.co/0rdRpTb/six.png "Detection Process 1")
 
