@@ -7,7 +7,6 @@ Mapping hand sketches to computer code is a modern AI problem that has been unde
 ![Samples](https://i.ibb.co/jgDd2d0/samples.png "Samples")
 
 
-[========]
 
 ### The Idea
 This program was one main part of our graduation project, in which we developed an end-to-end deep learning model to output web-page code given an input sketch. We could not find any suitable dataset for our case, so we built a dataset generator that creates randomized web-pages then turns them into matching sketches.
@@ -92,13 +91,15 @@ The element detection process and sketched ouput:
 
 
 ### Citations
-- [Pix2code (Tony Beltramelli)](https://github.com/tonybeltramelli/pix2code "Pix2code (Tony Beltramelli)")
- - The DSL method was mainly inspired by pix2code project by Toni.
- - The DSL compiler we use is a developed version of pix2code DSL compiler.
-- [Startbootstrap](https://startbootstrap.com/ "Startbootstrap")
- - We used simple startbootstrap templates as a reference for our generated web-pages.
-- [PhantomJS](https://phantomjs.org/ "PhantomJS")
- - We use phantomjs engine to render the web-pages using python.
+[Pix2code (Tony Beltramelli)](https://github.com/tonybeltramelli/pix2code "Pix2code (Tony Beltramelli)")
+- The DSL method was mainly inspired by pix2code project by Toni.
+- The DSL compiler we use is a developed version of pix2code DSL compiler.
+
+[Startbootstrap](https://startbootstrap.com/ "Startbootstrap")
+- We used simple startbootstrap templates as a reference for our generated web-pages.
+
+[PhantomJS](https://phantomjs.org/ "PhantomJS")
+- We use phantomjs engine to render the web-pages using python.
 
 ------------
 
