@@ -1,0 +1,6 @@
+body {
+  padding-top: 86px;
+}
+.img-fluid {
+	width: -webkit-fill-available;
+}

@@ -1,0 +1,212 @@
+* {
+    color: transparent !important;
+}
+body {
+	padding-top: 110px !important;
+}
+.text-white, .text-muted, .text-white-50{
+    color: transparent !important;
+}
+.navbar{
+	padding: 14px 14px 26px 14px;
+}
+body{
+    background: black;
+	min-height: 1800px;
+    /* RGB: [0, 0, 0] */
+    /* border: 10px solid black !important; */
+}
+header.bg-primary{
+    background-color: slateblue !important;
+    /* RGB: [106, 90, 205] */
+    /* border: 10px solid black !important; */
+}
+.navbar { 
+    background-color: green !important;
+    /* RGB: [0, 128, 0] */
+    /* border: 15px solid black !important; */
+}
+.nav-link {
+    background: red;
+    /* RGB: [255, 0, 0] */
+    margin-left: 22px;
+    width: 78px;
+    height: 48px;
+    white-space: nowrap;
+    /* border: 6px solid black !important; */
+}
+h1,h2,h3 {
+    background: greenyellow;
+    display: table;
+    padding: 8px;
+    white-space: nowrap;
+    /* RGB: [173, 255, 47] */
+    /* border: 10px solid black !important; */
+}
+h4,h5,h6 {
+    background: firebrick;
+    display: table;
+    margin-top: 5px;
+	padding-bottom: 8px;
+    padding-right: 10px;
+    white-space: nowrap;
+    /* RGB: [178, 34, 34] */
+    /* border: 10px solid black !important; */
+}
+h1.display-3, h4.display-3{
+    padding: 0px !important;
+}
+.list-group{
+    /*background-color: teal;*/
+    border: 14px solid #af3c3c !important;
+	margin-bottom: 8px;
+}
+.card-header>span{
+    background-color: salmon;
+    padding: 9px 5px 9px 5px;
+    margin-left: 10px;
+}
+.list-group-item{
+    background-color: transparent;
+    padding: 26px;
+    position: relative;
+    left: -2px;
+    border-bottom: 12px solid teal;
+    border-radius: 0px !important;
+}
+.list-group-item:last-child{
+    border-bottom: 0px;
+}
+.list-group-item>span{
+    background-color: #fcf;
+    padding: 4px;
+}
+/*
+.list-group-item:nth-child(odd){
+    border-radius: 0px !important;
+    background-color: teal;
+    /* RGB: [0, 128, 128] */
+    /* border: 10px solid black !important;
+}
+.list-group-item:nth-child(even){
+    border-radius: 0px !important;
+    background-color: turquoise;
+    /* RGB: [64, 224, 208] */
+    /* border: 10px solid black !important; 
+}
+*/
+strong, address, p{
+    background-color: salmon;
+    display: table;
+    padding: 8px;
+    margin-top: 8px;
+    /* RGB: [250, 128, 114] */
+    /* border: 10px solid black !important; */
+}
+.navbar-brand{
+	background-color: rgb(205, 155, 155);
+	padding-left: 44px;
+	padding-bottom: 18px;
+	margin-left: 20px;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.card{
+    border-radius: 0px;
+    border: 18px solid lawngreen;
+    background: black;
+    /* RGB: [124, 252, 0] */
+}
+.card-header{
+	padding: 0.8rem !important;
+    border-bottom: 15px solid magenta;
+    position: relative;
+    left: -5px;
+    white-space: nowrap;
+    /* RGB: [255, 0, 255] */
+    /* border: 10px solid black !important; */
+}
+.card-body{
+    background: purple;
+	padding: 0.5rem !important;
+    /* RGB: [128, 0, 128] */
+    /* border: 10px solid black !important; */
+}
+.card-footer{
+    background: purple;
+	border-top: 12px solid hotpink;
+    /* RGB: [255, 105, 180] */
+    /* border: 10px solid black !important; */
+}
+footer{
+    width: 100%;
+    margin-top: 14px;
+    padding: 40px !important;
+}
+footer.bg-dark{
+    background: gold !important;
+    /* RGB: [255, 215, 0] */
+    /* border: 10px solid black !important; */
+}
+footer>p{
+    margin: auto;
+    -webkit-margin-start: auto;
+}
+.btn-primary, .btn-secondary, .page-item a{
+    background-color: blue !important;
+    border-radius: 0px;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    margin-right: 16px !important;
+    /* RGB: [0, 0, 255] */
+    /* border: 10px solid black !important; */
+    border-color: blue !important;
+}
+.page-item a{
+    background-color: blue !important;
+    /* RGB: [0, 0, 255] */
+    /* border: 10px solid black !important; */
+    /* border-color: blue !important; */
+    margin-left: 4px;
+}
+.carousel img{
+    -webkit-filter: brightness(10) !important;
+    /* RGB: [128, 128, 128] */
+}
+.jumbotron{
+    background-color: darkturquoise;
+    /* RGB: [0, 206, 209] */
+    /* border: 14px solid #c99 !important; */
+}
+hr{
+    background-color: navy;
+    /* RGB: [0, 0, 128] */
+    /* border: 10px solid black !important; */
+    padding-top: 20px;
+}
+input {
+    background-color: chartreuse !important;
+    border-radius: 0px !important;
+    border: 0px solid black !important;
+}
+input::placeholder {
+    color: chartreuse !important;
+}
+.row-div>img, .row-div>a>img, .row-div>h4, .row-div>h1, .row-div>p, .row-div>strong, .row-div>a.btn, .row-div>.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row-div
+.row{
+    margin-top: 20px;
+}
+.btn {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 15px 20px 20px 50px !important;
+}
+img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
