@@ -106,4 +106,4 @@ The element detection process and sketched output:
 
 ### License
 MIT License
-Copyright (c) 2019 [Abdelrahman Abdelhamid](https://github.com/Dev-Tarek "Abdelrahman Abdelhamid"), [Ahmed Bally](https://github.com/ahmedbally "Ahmed Bally"), [Eman El-Sheikh](https://github.com/EmanAbuelyazeed "Eman El-Sheikh") and [Abdelrahman Metwally](https://github.com/spearkiller0 "Abdelrahman Metwally").
+Copyright (c) 2019 - Team Memebers [Abdelrahman Abdelhamid](https://github.com/Dev-Tarek "Abdelrahman Abdelhamid"), [Ahmed Bally](https://github.com/ahmedbally "Ahmed Bally"), [Eman El-Sheikh](https://github.com/EmanAbuelyazeed "Eman El-Sheikh"), [Abdelrahman Metwally](https://github.com/spearkiller0 "Abdelrahman Metwally"), [Salma Elkhawaga](https://github.com/SalmaElkhawaga) and [Mostafa Tarek](https://github.com/mostafaGwely).
