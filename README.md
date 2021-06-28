@@ -1,5 +1,6 @@
 # Sketched-Webpages-Generator
 Customizable open-source software to generate randomized sketched web-pages.
+Article on [Medium](https://medium.com/@devtarek/dataset-generator-for-sketch-to-code-deep-learning-problems-be9317b7e9b2)
 
 ## Introduction
 Mapping hand sketches to computer code is a modern AI problem that has been under research for some time. One of the main example applications for this problem is the generation of web-page front-end code from a hand sketch. Training a deep learning model for this task requires a large dataset that contains a wide variety of samples, but sketching a large number of web-pages is a tedious and time-consuming task. The software we publish is an efficient tool to generate any number of unique sketched web-pages.
