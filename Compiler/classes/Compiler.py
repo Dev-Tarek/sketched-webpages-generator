@@ -22,8 +22,12 @@ class Compiler:
         self.root = Node("body", None, self.content_holder)
 
     def compile(self, input_file_path, output_file_path, rendering_function=None):
+        print('input_file_path ',input_file_path)
         dsl_file = open(input_file_path)
         current_parent = self.root
+        
+        print(dsl_file)
+        
         i = 0
         for token in dsl_file:
             token = token.replace(" ", "").replace('\t','').replace("\n", "")
@@ -42,8 +46,13 @@ class Compiler:
                     element = Node(t, current_parent, self.content_holder, getID(i))
                     current_parent.add_child(element)
                     i += 1
+                    
+                    
         output_html = '<!DOCTYPE html>\n<html lang="en">\n  <head>\n    <meta charset="utf-8" />\n    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <meta name="theme-color" content="#000000" />\n    <!-- Bootstrap core CSS -->\n    <link href="../compiled-bootstrap/css/bootstrap.css" rel="stylesheet">\n    \n    <!-- Custom styles for this template -->\n    <link href="../effect.css" rel="stylesheet">\n	<link href="../page.css" rel="stylesheet">\n\n <title>Generated Page</title>\n   </head>\n  <body>\n'
+        
         output_html += self.root.render(self.dsl_mapping, rendering_function=rendering_function)
+        
+        
         output_html += '\n\t<script>\n\t\tvar x = document.getElementsByClassName("list-group-item");\n\t\tfor(var i = 0; i < x.length; i++) x[i].style.width = (parseInt(x[i].parentElement.offsetWidth) - 24) + "px";\n\t\tvar z = document.getElementsByClassName("card-header");\n\t\tfor(var i = 0; i < z.length; i++) z[i].style.width = (parseInt(z[i].parentElement.offsetWidth) - 24) + "px";\n\t</script>\n\n <script src="../jquery/jquery.min.js"></script>\n    <script src="../compiled-bootstrap/js/bootstrap.bundle.min.js"></script>\n  </body>\n</html>\n'
         with open(output_file_path, 'w') as output_file:
             output_file.write(output_html)

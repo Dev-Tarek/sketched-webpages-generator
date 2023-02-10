@@ -1,0 +1,30 @@
+container{
+	jumbotron{
+		large-title
+		large-title
+	}
+	row{
+		div-3{
+			text
+			text
+		}
+		div-9{
+			card-div{
+				card-header
+				img
+				card-body{
+					text
+					button
+				}
+			}
+			button
+			button
+		}
+	}
+	jumbotron{
+		large-title
+		button
+		large-title
+	}
+}
+footer

@@ -1,0 +1,12 @@
+navbar{
+	link-list
+	link-list
+}
+container{
+	jumbotron{
+		button
+		button
+		large-title
+		large-title
+	}
+}

@@ -1,0 +1,35 @@
+navbar{
+	link-list
+	link-list
+}
+container{
+	row{
+		div-12{
+			carousel
+			button
+		}
+	}
+	row{
+		div-3{
+			list-group{
+				list-group-item
+				list-group-item
+				list-group-item
+				list-group-item
+				list-group-item
+			}
+			card-div{
+				card-header
+				img
+				card-body{
+					text
+				}
+			}
+		}
+		div-9{
+			card-div{
+							}
+			large-title
+		}
+	}
+}
