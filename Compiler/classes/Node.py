@@ -29,11 +29,21 @@ class Node:
             child.show()
 
     def render(self, mapping, rendering_function=None):
+        
+        
+        print(str(self.key))
+        
+        if mapping[self.key] :
+            print(str(self.key))
+            # return ''
+         
         content = ""
         for child in self.children:
             content += child.render(mapping, rendering_function)
         
-        value = mapping[self.key]
+       
+        value = mapping[self.key] 
+      
         
         value = value.replace('$', 'id="'+self.id+'"')
         value = value.replace('~', self.id)

@@ -1,0 +1,41 @@
+navbar{
+	link-list
+	link-list
+	link-list
+	link-list
+}
+container{
+	jumbotron{
+		button
+		button
+		large-title
+		button
+	}
+	row{
+		div-3{
+			list-group{
+				list-group-item
+				list-group-item
+				list-group-item
+				list-group-item
+				list-group-item
+			}
+			img
+		}
+		div-3{
+			img
+			button
+		}
+		div-6{
+			img
+			carousel
+		}
+	}
+	row{
+		div-12{
+			carousel
+			large-title
+		}
+	}
+}
+footer

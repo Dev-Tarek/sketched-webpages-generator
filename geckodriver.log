@@ -1,0 +1,154 @@
+1676017059123	geckodriver	INFO	Listening on 127.0.0.1:57825
+1676017059194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVnwEJv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib64/dri/iHD_drv_video.so
+libva info: va_openDriver() returns -1
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: va_openDriver() returns -1
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017059826	Marionette	INFO	Marionette enabled
+1676017059831	Marionette	INFO	Listening on port 41291
+WebDriver BiDi listening on ws://localhost:42999
+Read port: 41291
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017060001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVnwEJv/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42999/devtools/browser/56904cc5-8339-4378-9105-7ea4f7bc8ead
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1676017079725	Marionette	INFO	Stopped listening on port 41291
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1676017225332	geckodriver	INFO	Listening on 127.0.0.1:53811
+1676017225430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRnzTQS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib64/dri/iHD_drv_video.so
+libva info: va_openDriver() returns -1
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: va_openDriver() returns -1
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017226366	Marionette	INFO	Marionette enabled
+1676017226372	Marionette	INFO	Listening on port 33837
+WebDriver BiDi listening on ws://localhost:34611
+Read port: 33837
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017226573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRnzTQS/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34611/devtools/browser/4500a988-6eb7-4119-a9b6-0a8dc83ae708
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1676017235204	Marionette	INFO	Stopped listening on port 33837
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1676017395382	geckodriver	INFO	Listening on 127.0.0.1:36949
+1676017395470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWlIHMg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib64/dri/iHD_drv_video.so
+libva info: va_openDriver() returns -1
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: va_openDriver() returns -1
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017396290	Marionette	INFO	Marionette enabled
+1676017396296	Marionette	INFO	Listening on port 34113
+WebDriver BiDi listening on ws://localhost:52467
+Read port: 34113
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017396517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWlIHMg/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52467/devtools/browser/a75481fe-4c90-45c7-b406-01cd7b0545e4
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1676017405976	Marionette	INFO	Stopped listening on port 34113
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1676017587862	geckodriver	INFO	Listening on 127.0.0.1:43229
+1676017587979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDtglb2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib64/dri/iHD_drv_video.so
+libva info: va_openDriver() returns -1
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: va_openDriver() returns -1
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017588753	Marionette	INFO	Marionette enabled
+1676017588758	Marionette	INFO	Listening on port 40169
+WebDriver BiDi listening on ws://localhost:60171
+Read port: 40169
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017588929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDtglb2/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:60171/devtools/browser/8d692f9f-d4fd-4bd1-b0ad-9c1581484362
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1676017625678	geckodriver	INFO	Listening on 127.0.0.1:55029
+1676017625762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile68LjmO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib64/dri/iHD_drv_video.so
+libva info: va_openDriver() returns -1
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: va_openDriver() returns -1
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017626619	Marionette	INFO	Marionette enabled
+1676017626626	Marionette	INFO	Listening on port 35683
+WebDriver BiDi listening on ws://localhost:36529
+Read port: 35683
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017626852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile68LjmO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36529/devtools/browser/7800a964-2eaa-4cca-a6cb-25f0684be73f
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1676017634523	Marionette	INFO	Stopped listening on port 35683
+1676017645916	geckodriver	INFO	Listening on 127.0.0.1:56157
+1676017646006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46713" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXDaRCS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib64/dri/iHD_drv_video.so
+libva info: va_openDriver() returns -1
+libva info: Trying to open /usr/lib64/dri/i965_drv_video.so
+libva info: va_openDriver() returns -1
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017646793	Marionette	INFO	Marionette enabled
+1676017646798	Marionette	INFO	Listening on port 42149
+WebDriver BiDi listening on ws://localhost:46713
+Read port: 42149
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676017646969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXDaRCS/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46713/devtools/browser/9a85c270-c260-4e9f-887c-fe36f91b654b
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1676017653379	Marionette	INFO	Stopped listening on port 42149
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1676022526810	Marionette	INFO	Stopped listening on port 40169

@@ -3,7 +3,8 @@ from selenium import webdriver
 
 class WebDriver:
     def __init__(self, w=1200, h=1200):
-        self.driver = webdriver.PhantomJS()
+        # self.driver = webdriver.PhantomJS()
+        self.driver = webdriver.Chrome()
         self.driver.set_window_size(w, h)
         
     def saveScreenshot(self, filePath, fileName, savePath):
